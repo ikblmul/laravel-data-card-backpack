@@ -1,28 +1,27 @@
 {
-    "name": "digitallyhappy/toggle-field-for-backpack",
-    "description": "Easily toggle boolean attributes with a new field type.",
+    "name": "ikblmul/laravel-backpack-data-card",
+    "description": "Simple Card for serving data like data table without losing the backpack search functionality",
     "license": "MIT",
     "authors": [
         {
-            "name": "Cristian Tabacitu",
-            "email": "hello@tabacitu.ro",
-            "homepage": "https://tabacitu.ro"
+            "name": "Ikbal Mulyadi",
+            "email": "ikbalmulyadi246@gmail.com"
         }
     ],
-    "homepage": "https://github.com/digitallyhappy/toggle-field-for-backpack",
-    "keywords": ["Laravel", "Backpack", "Backpack for Laravel", "Addon", "Admin Panel", "Toggle"],
+    "homepage": "https://github.com/ikblmul/laravel-backpack-data-card",
+    "keywords": ["Laravel", "Backpack", "Backpack for Laravel", "Addon", "Admin Panel", "Card","Data Table"],
     "require": {
         "backpack/crud": "^4.1.0"
     },
     "autoload": {
         "psr-4": {
-            "DigitallyHappy\\ToggleFieldForBackpack\\": "src/"
+            "CreativeCard\\DataCard\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DigitallyHappy\\ToggleFieldForBackpack\\AddonServiceProvider"
+                "CreativeCard\\DataCard\\AddonServiceProvider"
             ]
         }
     }

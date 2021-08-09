@@ -1,6 +1,7 @@
 /.idea
 /.vscode
 /node_modules
+/laravel-data-card
 /phpunit.xml
 /vendor
 build

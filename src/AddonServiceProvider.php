@@ -1,6 +1,6 @@
 <?php
 
-namespace DigitallyHappy\ToggleFieldForBackpack;
+namespace CreativeCard\DataCard;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,6 +13,6 @@ class AddonServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(realpath(__DIR__.'/resources/views'), 'toggle-field-for-backpack');
+        $this->loadViewsFrom(realpath(__DIR__ . '/resources/views'), 'dcard');
     }
 }
