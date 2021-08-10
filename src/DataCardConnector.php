@@ -52,7 +52,7 @@ class DataCardConnector
      * The search function that is called by the data table.
      *
      * @return array JSON Array of cells in HTML form.
-     */
+     */ 
     public function search()
     {
 
